@@ -15,7 +15,7 @@ const frontmatter = post.data;
      alt={frontmatter.title} 
    />
    <div class="flex flex-col justify-between py-6 lg:mx-6">
-      <a href="#" class="text-xl font-semibold hover:underline text-white">
+      <a href=`/posts/${post.slug}` class="text-xl font-semibold hover:underline text-white">
         {frontmatter.description}
       </a>
       <span class="text-sm text-gray-300">
