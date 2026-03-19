@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
 </p>
@@ -96,3 +97,58 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
+=======
+# 🌌 Astro Starter Kit: Basics
+
+Proyecto creado con:
+
+```sh
+pnpm create astro@latest -- --template basics
+```
+
+---
+
+## 📂 Estructura del proyecto
+
+Dentro de tu proyecto Astro encontrarás las siguientes carpetas y archivos:
+
+```text
+/
+├── public/                # Archivos estáticos (no procesados por Astro)
+│   └── favicon.svg
+├── src/                   # Código fuente del proyecto
+│   ├── assets/            # Recursos como imágenes, íconos, etc.
+│   │   └── astro.svg
+│   ├── components/        # Componentes reutilizables de Astro
+│   │   └── Welcome.astro
+│   ├── layouts/           # Plantillas de diseño
+│   │   └── Layout.astro
+│   └── pages/             # Páginas de tu sitio
+│       └── index.astro
+└── package.json           # Configuración y dependencias del proyecto
+```
+
+📖 Más información: [Guía de estructura en Astro](https://docs.astro.build/en/basics/project-structure/)
+
+---
+
+## 🧞 Comandos útiles
+
+Todos los comandos se ejecutan desde la raíz del proyecto en la terminal:
+
+| Comando                | Acción                                               |
+| :--------------------- | :--------------------------------------------------- |
+| `pnpm install`         | Instala las dependencias                             |
+| `pnpm dev`             | Inicia el servidor local en `localhost:4321`         |
+| `pnpm build`           | Genera la versión de producción en `./dist/`         |
+| `pnpm preview`         | Previsualiza el build antes de desplegarlo           |
+| `pnpm astro ...`       | Ejecuta comandos CLI como `astro add`, `astro check` |
+| `pnpm astro -- --help` | Muestra la ayuda del CLI de Astro                    |
+
+---
+
+## 👀 Recursos adicionales
+
+* 📚 [Documentación oficial](https://docs.astro.build)
+* 💬 [Servidor de Discord](https://astro.build/chat)
+>>>>>>> eb67d129e0e24ab194e9c8ce9ab0c117e2e04847

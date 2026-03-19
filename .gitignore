@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # compiled output
 /dist
 /node_modules
@@ -54,3 +55,29 @@ pids
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+=======
+# build output
+dist/
+
+# generated types
+.astro/
+
+# dependencies
+node_modules/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# environment variables
+.env
+.env.production
+
+# macOS-specific files
+.DS_Store
+
+# jetbrains setting folder
+.idea/
+>>>>>>> eb67d129e0e24ab194e9c8ce9ab0c117e2e04847

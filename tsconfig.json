@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "compilerOptions": {
     "module": "nodenext",
     "moduleResolution": "nodenext",
@@ -22,4 +23,9 @@
     "strictBindCallApply": false,
     "noFallthroughCasesInSwitch": false
   }
+=======
+  "extends": "astro/tsconfigs/strict",
+  "include": [".astro/types.d.ts", "**/*"],
+  "exclude": ["dist"]
+>>>>>>> eb67d129e0e24ab194e9c8ce9ab0c117e2e04847
 }
